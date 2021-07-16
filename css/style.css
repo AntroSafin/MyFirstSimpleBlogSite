@@ -1,0 +1,120 @@
+/* 
+Project Name: Monthly Resolutions Blog
+Author: Antro
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+body
+{
+     background: #d6d6d6;
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7;
+     font-size: 100%;
+}
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container
+{
+     width: 1000px;
+     margin: 0 auto 0 auto;
+}
+#main{
+     background-color: white;
+     width: 600px;
+     float: left;
+}
+#sidebar
+{
+     width: 300px;
+     float: left;
+     background-color: white;
+     margin-left: 7px;
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+.center
+{
+     margin:10px 20px 10px 20px ;
+     border-radius: 5px;
+}
+.side
+{
+     line-height: 5px;
+     font-size: 17px;
+     margin:20px auto 50px 25px;
+}
+h1
+{
+     margin-top: 70px;
+     font-size: 50px;
+     line-height: 0px;
+}
+h4
+{
+     line-height: 5px;
+     font-size: 17px;
+     margin-bottom: 50px;
+}
+.heading
+{
+     margin: 50px auto 15px 20px;
+     line-height: 0px;
+}
+.belowtext
+{
+     margin: 10px 30px 20px 20px;
+     padding-bottom: 15px  ;
+     border-bottom:thin solid #d6d6d6;
+}
+.below
+{
+     margin: 10px 30px 70px 20px;
+     line-height: 10px;
+     color: #d5d5d5;
+}
+#links
+{
+     margin: 20px auto 20px 30px;
+}
+.follow
+{
+     margin-left: 25px;
+}
+.linkcolor
+{
+     color: red;
+     text-decoration: none;
+}
+#circle
+{
+     border-radius: 50% ;
+     margin: 15px auto 10px 25px;
+     width: 100px;
+     height: 100px;
+}
+blockquote{
+     font-style: italic;
+     padding-left: 10px;
+     margin-left: 25px;
+     font-size: 13px;
+     border-left: medium solid #d6d6d6;
+}
